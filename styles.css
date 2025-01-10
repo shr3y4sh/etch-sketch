@@ -1,50 +1,94 @@
-body {
-  background-color: #f93827;
-  color: #ffd65a;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  /* border: 1px solid black; */
   padding: 0;
   margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #1d1616;
+  color: #eeeeee;
+  font-family: "Roboto Mono", serif;
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
+  margin: 30px 10px;
+  /* border: 1px solid black; */
+}
+
+h2 {
+  padding: 20px 0px;
+  margin-bottom: 20px;
+}
+
+#area {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  /* align-items: stretch; */
+}
+
+#size-button {
+  margin-top: 20px;
+  /* margin-left: 30px; */
+  padding: 5px 10px;
+  height: 30px;
+  width: 90px;
 }
 
 #main-container {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: stretch;
-  gap: 1px;
+  border: 1px solid black;
+  /* justify-content: stretch; */
+  /* align-items: stretch; */
+  /* gap: 1px; */
   /* align-content: center; */
   /* justify-self: center; */
   /* align-self: center; */
-  background-color: #ffd65a;
-  border-radius: 10px;
-  min-height: 755px;
-  min-width: 745px;
-  padding: 0;
-  margin: 0;
+  background-color: #8e1616;
+  /* border-radius: 10px; */
+  height: 700px;
+  width: 700px;
 }
 
 .cell-style {
-  border-radius: 10px;
-  min-width: 45px;
-  min-height: 45px;
-  background-color: #ff9d23;
+  /* height: fit-content; */
+  /* width: 100%; */
+  /* height: 100%; */
+  /* border-radius: 10px; */
+  /* width: 20px; */
+  border: 1px solid black;
+  /* min-width: 45px; */
+  /* min-height: 45px; */
+  flex: 0 0 1;
+  background-color: #d84040;
 }
 
 .row-style {
-  border-radius: 10px;
+  /* border-radius: 10px; */
+  /* margin: 0; */
+  /* border: 1px solid red; */
+  flex: 0 0 1;
   display: flex;
   flex-wrap: nowrap;
-  gap: 1px;
-  justify-content: center;
-  /* align-items: flex-end; */
-  min-width: 736px;
-  min-height: 46px;
+  /* height: 100%; */
+  /* height: 20px; */
+  /* width: 100%; */
+  /* gap: 1px; */
+  /* justify-content: center; */
+  /* align-items: stretch; */
+  /* min-width: 736px; */
+  /* min-height: 46px; */
   /* background-color: #ff9d23; */
 }

@@ -42,19 +42,16 @@ sizeButton.addEventListener("click", function () {
   document
     .querySelector("#area")
     .insertBefore(container, document.querySelector("#right-navigation"));
-<<<<<<< HEAD
   let num = prompt("Size of grid n x n: Enter n");
   nCrossN = Number(num);
 
   if (nCrossN > 64) {
-    alert("Max limit of grid is 64x64.");
+    alert("Please limit the size to 64x64.");
     // alert("Reverting back to 16x16");
-    createGrid(64);
+    createGrid(16);
     return;
   }
 
-======
->>>>>>> layout-grid
   console.log("nCrossN: " + num);
   container = createGrid(nCrossN);
   console.log(container);

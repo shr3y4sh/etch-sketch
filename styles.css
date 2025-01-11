@@ -14,7 +14,11 @@ body {
   display: flex;
   flex-direction: column;
   height: 95vh;
+<<<<<<< HEAD
   justify-content: flex-start;
+=======
+  /* justify-content: space-evenly; */
+>>>>>>> layout-grid
   align-items: center;
 }
 

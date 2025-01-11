@@ -42,6 +42,7 @@ sizeButton.addEventListener("click", function () {
   document
     .querySelector("#area")
     .insertBefore(container, document.querySelector("#right-navigation"));
+<<<<<<< HEAD
   let num = prompt("Size of grid n x n: Enter n");
   nCrossN = Number(num);
 
@@ -52,6 +53,8 @@ sizeButton.addEventListener("click", function () {
     return;
   }
 
+======
+>>>>>>> layout-grid
   console.log("nCrossN: " + num);
   container = createGrid(nCrossN);
   console.log(container);
